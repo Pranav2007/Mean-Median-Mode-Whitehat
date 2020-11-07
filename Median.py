@@ -1,5 +1,5 @@
 import csv
-with open('D:/C-104/HeightWeight.csv', newline='') as f:
+with open('HeightWeight.csv', newline='') as f:
     reader = csv.reader(f)
     file_data = list(reader)
 file_data.pop(0)
